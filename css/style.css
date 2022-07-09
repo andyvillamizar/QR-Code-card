@@ -1,0 +1,87 @@
+/* 
+1- Posisonamiento
+2- Modelo de caja (box modedel)
+3- Tipografia
+4- Visuales
+5- Otros
+
+*/
+
+    /* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Outfit', sans-serif;
+    background-color: #d5e1ef;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.main__container__title {
+    position: relative;
+    width: 100%;
+    min-width: 250px;
+    max-width: 255px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 73px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.main__container__title span {
+    display: inline-block;
+    width: 230px;
+    height: 247px;
+    margin: 12px;
+    border-radius: 9px;
+    background-image: url('https://i.postimg.cc/HxZrBTb5/image-qr-code.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container__text {
+    padding: 5px;
+    text-align: center;
+}
+
+.container__text h1 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+    color: #282d46;
+}
+
+.container__text p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #878c95;
+}
+
+.container__attribution {
+    align-self: center;
+}
+
+.attribution {
+    font-size: 1.6rem;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: black;
+}
