@@ -33,7 +33,7 @@ main {
     width: 100%;
     min-width: 250px;
     max-width: 255px;
-    height: 430px;
+    height: auto;
     margin: 0 auto;
     margin-top: 73px;
     margin-bottom: 40px;
